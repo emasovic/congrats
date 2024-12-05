@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add perspective for 3D effect */
+.perspective {
+  perspective: 1000px;
+}
+
+/* Add 3D transformation style */
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Rotate the back side */
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hide the backface when flipped */
+.backface-hidden {
+  backface-visibility: hidden;
+}
